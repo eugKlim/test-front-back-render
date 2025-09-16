@@ -1,4 +1,3 @@
-import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { useRole } from '../shared/hooks';
 import { useAppDispatch, useAppSelector } from '../shared/hooks';

@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useAppDispatch } from '../hooks/redux';
 import AuthService from '../features/auth/api/AuthService';
 import { setAuth, setUser } from '../store/authSlice';
