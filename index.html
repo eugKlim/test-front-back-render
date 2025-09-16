@@ -9,9 +9,13 @@
       content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src 'self' http://localhost:5000; script-src 'self';"
     /> -->
     <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src 'self' https://test-front-back-render.vercel.app; script-src 'self';"
+  />
+    <!-- <meta
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; connect-src 'self' https://server-avgm.onrender.com; script-src 'self';"
-    />
+    /> -->
     <title>Vite + React + TS</title>
   </head>
   <body>
