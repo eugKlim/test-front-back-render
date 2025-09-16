@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { useAppDispatch, useAppSelector } from './hooks/redux';
 import AuthService from './features/auth/api/AuthService';
 import { setAuth, setLoading, setUser } from './store/authSlice';
