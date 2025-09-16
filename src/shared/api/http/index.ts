@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const API_URL = import.meta.env.VITE_API_BASE_URL as string;
+export const API_URL = import.meta.env.PUBLIC_API_BASE_URL || import.meta.env.VITE_API_BASE_URL;
 // export const API_URL = `https://server-avgm.onrender.com/api`;
 // export const API_URL = `http://localhost:5000/api`;
 
